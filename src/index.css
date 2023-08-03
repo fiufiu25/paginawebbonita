@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #F2F4F4;
+  font-family: sans-serif;
+}
+.list li {
+display:inline-block;
+margin: 5px;
+
+
+}
+.list li a{
+  color:#182d5a;
+  text-decoration: none;
+  font-size: 18;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 20px 5px;
+  
+}
+
+.list li a:hover{
+  padding: 20px 5px;
+  border-bottom: 4px solid #FF7901;
+  border-top: 4px solid #FF7901;
+  color: #FF7901;
+}
+
+.listbutton{
+  background-color: #FF7501;
+  padding: 20px 16px;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 900;
+  cursor: pointer;
+}
+@media (max-width:650px) {
+  .listbutton{
+    display: none;
+  }
+  
+}
+.cotenidobutton{
+  background-color: #FF7501;
+  padding: 22px 25px;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 900;
+  cursor: pointer;
+}
+.card_action{
+  user-select: none;
+ transition: all 1s;
+}
+
+.card_action:hover{
+  transform: scale(1.04);
+  transition: all 0.5s;
+  font-weight: 900;
+}
+.superinput{
+  padding: 25px 10px;
+  border: none;
+  outline-style: none;
+  width: 100%;
+  background-color: white;
+  font-size: 16px;
+}
+.buttonincon{
+  background-color: #182d5a;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 900;
+  cursor: pointer;
+}
+.buttonincon:hover{
+  background-color: #ff6c01;
+  transition: all 0.5s;
+}
+.superinput::placeholder{
+  color: #757982;
+  
+}
+.barras{
+  background-color:#ff6c01 ;
+
+  height: 100%;
+  animation: barra 5s   ease-out  infinite reverse ;
+}
+@keyframes barra {
+to{
+  width: 0%;
+}
+from{
+  width: 100%;
+}
+}
+.barras1{
+  background-color:#ff6c01 ;
+
+  height: 100%;
+  animation: barra1 2s   ease-out  infinite  alternate-reverse;
+  animation-delay: 3s;
+}
+@keyframes barra1 {
+  to{
+    width: 0%;
+  }
+  from{
+    width: 100%;
+  }
+}
+.barras2{
+  background-color:#ff6c01 ;
+
+  height: 100%;
+  animation: barra2 7s   ease-out  infinite  alternate-reverse;
+  animation-delay: 1s;
+}
+@keyframes barra2 {
+  to{
+    width: 0%;
+  }
+  from{
+    width: 100%;
+  }
+}
+
